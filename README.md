@@ -1,6 +1,6 @@
 # <h1>Portifólio pessoal desenvolvido com intuito de praticar conhecimentos.</h1>
 
-<h3>Desenvolvido com animações em css e javascript e treinar SASS</h3>
+<h3>Desenvolvido com animações em css e javascript </h3>
 <br>
 
 ## 🚀 Tecnologias
