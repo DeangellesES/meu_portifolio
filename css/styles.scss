@@ -277,7 +277,11 @@ nav .navegacao-primaria {
 /* Especialidades */
 section.especialidades {
     box-shadow: 0 0 40px 10px #ffffff1d;
-    padding: 200px 4%;
+    padding: 180px 4%;
+
+    .flex {
+        justify-content: space-around;
+    }
 
     .especialidades-box {
         border-radius: 20px;
@@ -285,6 +289,8 @@ section.especialidades {
         margin-top: 45px;
         padding: 40px;
         transition: .2s;
+        width: 20%;
+        text-align: center;
 
         i {
             color: $cor-padrao;
@@ -664,16 +670,15 @@ footer {
     }
 
     .especialidades .flex {
+        margin-top: 80px !important;
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        gap: 40px !important;
     }
 
-    .especialidades-box {
-        text-align: center;
-        margin-top: 0px !important;
-        width: 230px;
-        margin: 0 auto;
+    .especialidades-box {  
+        text-align: center;  
+        width: 50% !important;
     }
 
     // RESUMO
