@@ -434,7 +434,8 @@ footer {
     padding: 15px;
     /* chama a o keyframe criado, animação lista surgindo de cima pra baixo de forma mais lenta*/
     animation: animation .5s forwards;
-    background-color: #ffffff65;
+    background-color: #000;
+    width: 85% !important;
     border: 2px solid #fff;
     z-index: 10; }
 
@@ -446,14 +447,12 @@ footer {
       transform: translate3d(0, 0, 0); } }
   .navegacao-primaria li {
     width: 100%;
-    border-bottom: solid #1c3070;
     text-align: center; }
 
   .navegacao-primaria li:nth-last-child(1) {
     border: none; }
 
   .navegacao-primaria__item {
-    color: #080808 !important;
     font-size: 1.7em !important; }
 
   /* SEÇÃO DESCRIÇÃO INICIAL*/
@@ -524,69 +523,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; } }
-@media (max-width: 888px) {
-  header .bg i {
-    position: absolute;
-    right: 50px;
-    color: #fff;
-    top: 0;
-    margin-top: 30px;
-    cursor: pointer;
-    display: block;
-    font-size: 2.5rem; }
-
-  header .bg nav ul {
-    display: none; }
-
-  header .bg nav ul.ativo {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0px;
-    margin-right: 20px;
-    margin-top: 30px;
-    padding: 15px;
-    /* chama a o keyframe criado, animação lista surgindo de cima pra baixo de forma mais lenta*/
-    animation: animation .5s forwards;
-    background-color: #ffffff65;
-    border: 2px solid #fff;
-    z-index: 10; }
-
-  /*cria tipo uma função para fazer a animação descer de forma mais lenta no icone de hamburguer, junto a função em javascript*/
-  @keyframes animation {
-    from {
-      transform: translate3d(0, -60px, 0); }
-    to {
-      transform: translate3d(0, 0, 0); } }
-  .navegacao-primaria li {
-    width: 100%;
-    border-bottom: solid #1c3070;
-    text-align: center; }
-
-  .navegacao-primaria li:nth-last-child(1) {
-    border: none; }
-
-  .navegacao-primaria__item {
-    color: #080808 !important;
-    font-size: 1.7em !important; }
-
-  /* SEÇÃO DESCRIÇÃO INICIAL*/
-  .secao-curriculo {
-    display: flex !important;
-    flex-direction: column !important; }
-
-  .secao-curriculo div {
-    text-align: center; }
-
-  .secao-curriculo div a {
-    margin: 0 auto; }
-
-  .secao-curriculo div h2 {
-    font-size: 2em;
-    line-height: 30px; }
-
-  .secao-curriculo div p {
-    font-size: 1.3em; } }
 @media (max-width: 664px) {
   header .bg i {
     position: absolute;
@@ -611,7 +547,8 @@ footer {
     padding: 15px;
     /* chama a o keyframe criado, animação lista surgindo de cima pra baixo de forma mais lenta*/
     animation: animation .5s forwards;
-    background-color: #ffffff65;
+    background-color: #000;
+    width: 90%;
     border: 2px solid #fff;
     z-index: 10; }
 
@@ -623,14 +560,12 @@ footer {
       transform: translate3d(0, 0, 0); } }
   .navegacao-primaria li {
     width: 100%;
-    border-bottom: solid #1c3070;
     text-align: center; }
 
   .navegacao-primaria li:nth-last-child(1) {
     border: none; }
 
   .navegacao-primaria__item {
-    color: #080808 !important;
     font-size: 1.7em !important; }
 
   /* SEÇÃO DESCRIÇÃO INICIAL*/
@@ -702,5 +637,69 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; } }
+@media (max-width: 888px) {
+  header .bg i {
+    position: absolute;
+    right: 50px;
+    color: #fff;
+    top: 0;
+    margin-top: 30px;
+    cursor: pointer;
+    display: block;
+    font-size: 2.5rem; }
+
+  header .bg nav ul {
+    display: none; }
+
+  header .bg nav ul.ativo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    /* chama a o keyframe criado, animação lista surgindo de cima pra baixo de forma mais lenta*/
+    animation: animation .5s forwards;
+    background-color: #000;
+    width: 90%;
+    border: 2px solid #fff;
+    z-index: 10; }
+
+  /*cria tipo uma função para fazer a animação descer de forma mais lenta no icone de hamburguer, junto a função em javascript*/
+  @keyframes animation {
+    from {
+      transform: translate3d(0, -60px, 0); }
+    to {
+      transform: translate3d(0, 0, 0); } }
+  .navegacao-primaria li {
+    width: 100%;
+    text-align: center; }
+
+  .navegacao-primaria li:nth-last-child(1) {
+    border: none; }
+
+  .navegacao-primaria__item {
+    color: #fff !important;
+    border-bottom: solid #fff;
+    font-size: 1.7em !important; }
+
+  /* SEÇÃO DESCRIÇÃO INICIAL*/
+  .secao-curriculo {
+    display: flex !important;
+    flex-direction: column !important; }
+
+  .secao-curriculo div {
+    text-align: center; }
+
+  .secao-curriculo div a {
+    margin: 0 auto; }
+
+  .secao-curriculo div h2 {
+    font-size: 2em;
+    line-height: 30px; }
+
+  .secao-curriculo div p {
+    font-size: 1.3em; } }
 
 /*# sourceMappingURL=styles.css.map */
