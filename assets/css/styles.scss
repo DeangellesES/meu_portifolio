@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 $cor-padrao: #1c3070;
 $cor-secundaria: #fff;
 $cor-hover: #fff;
@@ -16,7 +18,7 @@ body {
     margin-right: 10px;
 }
 
-.flex {
+.flex { 
     display: flex;
     gap: 60px;
 }
@@ -420,7 +422,7 @@ section.especialidades {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin-top: 4rem;
     padding: 30px;
 
     .my_skill {
@@ -435,6 +437,13 @@ section.especialidades {
             justify-self: center;
             margin-bottom: 30px;
             padding: 10px 30px;
+            text-transform: capitalize;
+        }
+
+        .skills-colunms {
+            display: flex;
+            gap: 8rem;
+            margin-top: 5rem;
         }
 
         .skill_content {
