@@ -416,6 +416,28 @@ section.portifolio {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.1137254902);
 }
+section.portifolio .swiper {
+  width: 100%;
+  height: 650px;
+}
+section.portifolio .swiper .swiper-slide {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4705882353);
+}
+section.portifolio .swiper .swiper-button-prev,
+section.portifolio .swiper .swiper-button-next {
+  background-color: #000;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4705882353);
+  border: 1px solid #000;
+}
+section.portifolio .swiper .swiper-pagination {
+  background-color: #000;
+  color: #fff;
+}
 section.portifolio .portifolio-interface h3 {
   color: #3e3d3d;
   font-size: 1.7em;
@@ -429,14 +451,13 @@ section.portifolio .portifolio-interface .flex {
   justify-content: center;
 }
 section.portifolio .portifolio-interface .flex .img-port {
-  background-position: 100% 0%;
   background-size: cover;
   border-radius: 40px;
   cursor: pointer;
   height: 460px;
   position: relative;
   transition: 8s;
-  width: 350px;
+  max-width: 20rem;
 }
 section.portifolio .portifolio-interface .flex .img-port .overlay {
   align-items: center;

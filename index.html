@@ -11,7 +11,8 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Meu Portifólio</title>
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -401,43 +402,47 @@
 
     <!--INÍCIO PORTIFÓLIO-->
     <section class="portifolio" id="portifolio">
-      <div class="portifolio-interface">
+      <div class="swiper portifolio-interface">
         <h2 class="portifolio-titulo">MEU <span>PORTIFÓLIO.</span></h2>
         <h3>Alguns projetos</h3>
-        <div class="flex">
-          <div class="img-port" style="background-image: url(assets/img/site-hamburgueria.png);">
+        <div class="swiper-wrapper flex">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/site-hamburgueria.png);">
             <div class="overlay">Projeto 1</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/loja-ficticia.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/loja-ficticia.png);">
             <div class="overlay">Projeto 2</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/site-ecommerce.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/site-ecommerce.png);">
             <div class="overlay">Projeto 3</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/restaurante.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/restaurante.png);">
             <div class="overlay">Projeto 4</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/escola-de-musica.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/escola-de-musica.png);">
             <div class="overlay">Projeto 5</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/streaming.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/streaming.png);">
             <div class="overlay">Projeto 6</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/apeperia.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/apeperia.png);">
             <div class="overlay">Projeto 7</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/site-eventos.png);">
-            <div class="overlay">Projeto 8</div>
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/site-eventos.png);">
+            <div class="swiper-slide overlay">Projeto 8</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/fokus.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/fokus.png);">
             <div class="overlay">Projeto 9</div>
           </div>
-          <div class="img-port" style="background-image: url(assets/img/organizador-de-funções.png);">
+          <div class="swiper-slide img-port" style="background-image: url(assets/img/organizador-de-funções.png);">
             <div class="overlay">Projeto 10</div>
           </div>
-        </div><!--flex-->
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
         <!-- <button class="read_more">Ver mais...</button> -->
-      </div><!--interface-->
+      </div>
     </section>
     <!--FIM PORTIFÓLIO-->
   </main>
@@ -461,7 +466,8 @@
     </div><!--fim parte de baixo do rodapé-->
   </footer>
 
-  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 
