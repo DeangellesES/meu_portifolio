@@ -506,7 +506,6 @@ section.portifolio {
 
         .flex {
             margin-top: 60px;
-            flex-wrap: wrap;
             justify-content: center;
 
             .img-port {
@@ -517,7 +516,7 @@ section.portifolio {
                 position: relative;
                 transition: 8s;
                 max-width: 20rem;
-
+                min-width: 20rem;
                 .overlay {
                     align-items: center;
                     background-color: #0000005a;

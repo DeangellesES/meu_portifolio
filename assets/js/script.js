@@ -79,11 +79,11 @@ function MENUCLICK() {
 MENUCLICK()
 
 const swiper = new Swiper('.swiper', {
-    slidesPerView: 4,
-    // autoplay: {
-    //     delay: 5500,
-    //     disableOnInteraction: false,
-    // },
+    slidesPerView: 6,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
 
     // Optional parameters
     loop: true,
